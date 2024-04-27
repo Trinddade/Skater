@@ -8,6 +8,7 @@ Ofertas:
 Variedade de Produtos: Skater oferece uma ampla variedade de produtos de skate, cuidadosamente selecionados de marcas renomadas, para atender às necessidades e preferências de todos os skatistas, sejam iniciantes ou profissionais.
 Experiência de Compra Personalizada: Nossa plataforma intuitiva permite que os clientes naveguem facilmente pelos produtos, encontrem o que procuram e façam compras com facilidade, garantindo uma experiência de compra personalizada e satisfatória.
 Informações Detalhadas: Cada produto listado na Skater é acompanhado por descrições detalhadas, imagens de alta qualidade e informações técnicas, ajudando os clientes a tomar decisões informadas antes de fazer uma compra.
+
 Ano de Criação: 2024
 
 Tecnologias Utilizadas: Para o desenvolvimento da Skater, foram utilizadas as tecnologias HTML, CSS e JavaScript, juntamente com bibliotecas e frameworks modernos para garantir um design responsivo e uma experiência de usuário otimizada.
