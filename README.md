@@ -1,7 +1,7 @@
 Skater: Sua Loja Virtual para os Amantes do Skate
 
 Objetivo:
-Skater é uma plataforma online projetada para atender às necessidades dos apaixonados pelo skate. Nosso principal objetivo é fornecer uma experiência de compra fácil e conveniente, oferecendo uma ampla gama de produtos de skate de alta qualidade, desde decks e trucks até roupas e acessórios, tudo em um único local.
+Skater é uma plataforma online projetada para atender às necessidades dos apaixonados pelo skate. Nosso principal objetivo é fornecer uma experiência de compra fácil e conveniente, tudo em um único local.
 
 Ofertas:
 
