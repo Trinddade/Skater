@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto 1 - Sua Loja Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Skater</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="index.html#produtos">Produtos</a></li>
+                    <li class="nav-item"><a href="contato.html">Contato</a></li>
+                    <li class="nav-item"><a href="login.html">Login</a></li>
+                    <li class="nav-item"><a href="carrinho.html">Carrinho</a></li>
+                </ul>
+                <form action="#" method="get" class="search-form">
+                    <input type="text" placeholder="Buscar..." class="search-input">
+                    <button type="submit" class="search-button">Buscar</button>
+                </form>
+                <section id="produtos" class="section">
+                </section>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#produtos">Produtos</a></li>
+                    </ul>
+                </nav>
+                                
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-heading">Skate Profissional Grafite Skateboarding</h2>
+            <div class="product-details">
+                <img src="./produto1.webp" alt="Produto 1" class="product-image">
+                <div class="product-info">
+                    <p><strong>Nome:</strong>Skate Profissional Grafite Skateboarding</p>
+                    <p><strong>Descrição:</strong> Descrição do Produto 1.</p>
+                    <p><strong>Preço:</strong> R$ 120,00</p>
+                    <p><strong>Quantidade em Estoque:</strong> 10 unidades</p>
+                    <form action="#" method="post">
+                        <label for="quantity">Quantidade:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                        <button onclick="addToCart('produto1');" class="add-to-cart-button">Adicionar ao Carrinho</button>
+                    </form>
+                </div>
+            </div>
+            <div class="qa-section">
+                <h3>Perguntas e Respostas</h3>
+                <div class="question">
+                    <p><strong>Pergunta:</strong> Qual é a garantia do produto?</p>
+                    <p><strong>Resposta:</strong> A garantia do produto é de 1 ano.</p>
+                </div>
+                <!-- Mais perguntas e respostas podem ser adicionadas aqui -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2024 Sua Loja Virtual. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

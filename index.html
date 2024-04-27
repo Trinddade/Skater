@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Loja Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Skater</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">Produtos</a></li>
+                    <li class="nav-item"><a href="contato.html">Contato</a></li>
+                    <li class="nav-item"><a href="login.html">Login</a></li>
+                    <li class="nav-item"><a href="carrinho.html">Carrinho</a></li>
+                </ul>
+                <form action="#" method="get" class="search-form">
+                    <section id="produtos" class="section">
+                        <input type="text" id="searchInput" placeholder="Buscar..." class="search-input">
+<button type="button" onclick="searchProducts()" class="search-button">Buscar</button>
+<script>
+    function searchProducts() {
+        var searchTerm = document.getElementById("searchInput").value.toLowerCase(); 
+        var produtos = document.querySelectorAll(".product"); 
+
+        produtos.forEach(function(produto) {
+            var titulo = produto.querySelector(".product-title").textContent.toLowerCase(); 
+
+            if (titulo.includes(searchTerm)) {
+                produto.style.display = "block";
+            } else {
+                produto.style.display = "none"; 
+            }
+        });
+    }
+</script>
+
+
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <img src="produto1.webp" alt="Produto 1" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">Skate Profissional Grafite Skateboarding</h3>
+                <p class="product-price">R$ 120,00</p>
+                <button onclick="addToCart('produto1');" class="add-to-cart-button">Adicionar ao Carrinho</button>
+                <a href="produto1.html" class="btn">Ver Produto</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="produto 2.webp" alt="Produto 2" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">Skate Maple Profissional</h3>
+                <p class="product-price">R$ 150,00</p>
+                <button onclick="addToCart('produto2');" class="add-to-cart-button">Adicionar ao Carrinho</button>
+                <a href="produto2.html" class="btn">Ver Produto</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="produto 3.webp" alt="Produto 3" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">Skate Cisco Able</h3>
+                <p class="product-price">R$ 99,99</p>
+                <button onclick="addToCart('produto3');" class="add-to-cart-button">Adicionar ao Carrinho</button>
+                <a href="produto3.html" class="btn">Ver Produto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="signup">
+        <div class="container">
+            <h2 class="signup-heading">Cadastre-se para receber nossas ofertas!</h2>
+            <form action="#" method="post" class="signup-form">
+                <input type="email" name="email" placeholder="Seu e-mail" class="signup-input">
+                <button type="submit" class="signup-button">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2024 Skater. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
